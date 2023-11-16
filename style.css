@@ -1,4 +1,5 @@
 body{
+    width: 80%;
     margin: 0;
     padding: 10px;
     font-family: 'Epilogue', sans-serif;
@@ -34,15 +35,18 @@ header div{
 }
 .navbtn{
     position: absolute;
-    right: 7%;
+    right: 9%;
     font-size: 16px;
     margin-right: 1%;
 }
 .log{
+    font-size: 16px;
     border: none;
     background-color: white;
 }
 .reg{
+    /* font-family: ; */
+    font-size: 16px;
     background-color: white;
     border-radius: 10px;
     border: solid 1px black;
@@ -74,11 +78,11 @@ section{
 .make button{
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     width: 140px;
     padding: 10px;
-    margin-top: 6px;
+    margin-top: 20px;
     font-size: 16px;
 }
 section .image{
@@ -95,6 +99,53 @@ section .image img{
 .make img{
     width: 60px;
     margin-top: 60px;
-    margin-left: 7%;
+    margin-left: 5%;
     /* margin-top: 60px; */
 }
+/* .moblogo{
+    display: none;
+} */
+
+@media only screen and (min-width: 850px) {
+    .moblogo{
+        display: none;
+    }
+    .mobimg{
+        display: none;
+    }
+    .mobmenu{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    .moblogo{
+        /* display: none; */
+    }
+    header{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .mobimg img{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mobmenu{
+    position: absolute;
+    right: 9%;
+    top: 30px;
+    font-size: 16px;
+    margin-right: 1%;
+    }
+    .make{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image{
+        width: 0;
+    }
+
+  }
