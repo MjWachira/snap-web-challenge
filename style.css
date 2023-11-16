@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Epilogue', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+p{
+    font-size: 16px;
+}
+header{ 
+    display: block;
+    height: 30px;
+    width: 90%;
+    /* border: solid; */
+    padding: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: default;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin: 1%;
+}
+header div{
+    display: inline;
+}
+.navbtn{
+    position: absolute;
+    right: 7%;
+    font-size: 16px;
+    margin-right: 1%;
+}
+.log{
+    border: none;
+    background-color: white;
+}
+.reg{
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 4px;
+    width: 80px;
+}
+nav li{
+    display: inline;
+}
+section{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: solid; */
+    display: block; 
+    width: 80%;
+    height: 90%;
+    padding: 60px;
+    
+}
+.make{
+    width: 60%;
+
+}
+.make h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+.make button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 140px;
+    padding: 10px;
+    margin-top: 6px;
+    font-size: 16px;
+}
+section .image{
+    position: absolute;
+    width: 40%;
+    right: 100px;
+    top: 80px;
+}
+section .image img{
+    width:300px;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+.make img{
+    width: 60px;
+    margin-top: 60px;
+    margin-left: 7%;
+    /* margin-top: 60px; */
+}
